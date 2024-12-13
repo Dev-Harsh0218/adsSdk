@@ -86,7 +86,7 @@ const ImageUpload = ({onUploadSuccess}) => {
       console.error("Error uploading file:", error);
       alert("Error uploading file");
     }
-  };
+  
   //   const adsDataList = [
   //     [false, 'com.as.speakercleaner-1.png', 'https://play.google.com/store/apps/details?id=com.as.speakercleaner&hl=en-IN'],
   //     [false, 'com.as.speakercleaner.png', 'https://play.google.com/store/apps/details?id=com.as.speakercleaner&hl=en-IN'],
@@ -94,8 +94,8 @@ const ImageUpload = ({onUploadSuccess}) => {
   //     [true, 'com.clock.sandtimer.png', 'https://play.google.com/store/apps/details?id=com.clock.sandtimer&hl=en-IN'],
   //     [false, 'com.meditation.medit8-1.png', 'https://play.google.com/store/apps/details?id=com.meditation.medit8&hl=en-IN'],
   //     [false, 'com.meditation.medit8-2.png', 'https://play.google.com/store/apps/details?id=com.meditation.medit8&hl=en-IN'],
-  //     [false, 'com.walli.hd.wallpapervideo.mp4', 'https://play.google.com/store/apps/details?id=com.walli.hd.wallpaper&hl=en-IN'],
-  //     [false, 'commeditationmedit8video.mp4', 'https://play.google.com/store/apps/details?id=com.walli.hd.wallpaper&hl=en-IN'],
+  //     // [false, 'com.walli.hd.wallpapervideo.mp4', 'https://play.google.com/store/apps/details?id=com.walli.hd.wallpaper&hl=en-IN'],
+  //     // [false, 'commeditationmedit8video.mp4', 'https://play.google.com/store/apps/details?id=com.walli.hd.wallpaper&hl=en-IN'],
   //     [false, 'com.meditation.medit8.png', 'https://play.google.com/store/apps/details?id=com.meditation.medit8&hl=en-IN'],
   //     [false, 'com.music.focusflow-1.png', 'https://play.google.com/store/apps/details?id=com.music.focusflow&hl=en-IN'],
   //     [false, 'com.music.focusflow.png', 'https://play.google.com/store/apps/details?id=com.music.focusflow&hl=en-IN'],
@@ -119,7 +119,7 @@ const ImageUpload = ({onUploadSuccess}) => {
   //     console.error('Error uploading files:', error);
   //     alert(error);
   //   }
-  // };
+   };
 
   return (
     <div className="">
